@@ -350,8 +350,8 @@ button:hover {
 }
 .Features {
   display: flex;
-  width: 60%;
-  margin-left: 20rem;
+  width: 70%;
+  margin-left: 15rem;
   margin-top: 3rem;
 }
 .box {
@@ -787,6 +787,18 @@ input:focus {
     background-color: black;
     z-index: 1;
   }
+  .Column {
+    padding: 0;
+    margin: 0;
+  }
+  .TokenRow {
+    margin: 0;
+    padding: 0;
+  }
+  .Tokens {
+    display: block;
+    margin: 1rem 0 0 2rem;
+  }
   .burger > div {
     display: block;
   }
@@ -870,18 +882,15 @@ input:focus {
     left: 30%;
   }
   .Features {
-    flex-direction: column;
-    padding: 0;
-    margin-left: 1.5rem;
-    width: 90%;
+    display: block;
+    margin-left: 2.5rem;
+    width: 80%;
   }
   .box {
     padding: 0;
     margin: 0;
   }
-  .FeaturesText {
-    margin-top: auto;
-  }
+
   .FeaturesText h5 {
     position: relative;
     width: 90%;
