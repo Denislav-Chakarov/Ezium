@@ -352,8 +352,7 @@ button:hover {
 .Features {
   display: flex;
   width: 70%;
-  margin-left: 15rem;
-  margin-top: 3rem;
+  transform: translate(22%, 10%);
 }
 .box {
   text-align: center;
@@ -892,7 +891,7 @@ input:focus {
     margin: 0;
   }
 
-  .FeaturesText h5 {
+  .FeaturesText h3 {
     position: relative;
     width: 90%;
     left: 12px;
