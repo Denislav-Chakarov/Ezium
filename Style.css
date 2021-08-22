@@ -191,7 +191,7 @@ button:hover {
   padding: 15px 10px 15px 10px;
   background: #270081;
   left: 7rem;
-  bottom: 3rem;
+  bottom: -1rem;
   color: #bf00c5;
   transition: all 0.3s;
 }
@@ -789,6 +789,10 @@ input:focus {
   }
   .FinalContent {
     min-height: 140vh;
+  }
+  .SignUpBtn {
+    left: 7rem;
+    bottom: 3rem;
   }
 }
 @media screen and (max-width: 768px) {
