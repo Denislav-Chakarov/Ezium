@@ -252,7 +252,7 @@ button:hover {
 /* Second Content Page */
 
 .SecondContent {
-  min-height: 130vh;
+  min-height: 150vh;
   height: auto;
   background: linear-gradient(0, #250b83, #3a0061);
   font-family: "Poppins", sans-serif;
