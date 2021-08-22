@@ -415,7 +415,7 @@ button:hover {
   background-color: #12026b;
   padding: 3rem;
   text-align: center;
-  transform: translate(95%, 40%);
+  transform: translate(150%, 40%);
 }
 .Price::after {
   position: relative;
