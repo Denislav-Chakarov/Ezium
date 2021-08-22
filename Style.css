@@ -617,7 +617,7 @@ button:hover {
 
 .FinalContent {
   background: linear-gradient(0deg, #250b83, #24003b);
-  min-height: 110vh;
+  min-height: 80vh;
   height: auto;
   font-family: "Poppins", sans-serif;
 }
