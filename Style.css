@@ -252,7 +252,7 @@ button:hover {
 /* Second Content Page */
 
 .SecondContent {
-  min-height: 180vh;
+  min-height: 130vh;
   height: auto;
   background: linear-gradient(0, #250b83, #3a0061);
   font-family: "Poppins", sans-serif;
@@ -302,7 +302,7 @@ button:hover {
   width: 20%;
 }
 .ThemeRow {
-  margin-top: 17rem;
+  transform: translate(0, 50%);
 }
 .ThemeDescrip h2 {
   color: white;
