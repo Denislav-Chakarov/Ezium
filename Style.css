@@ -427,6 +427,9 @@ button:hover {
   .FourthContent {
     min-height: 140vh;
   }
+  .FifthContent {
+    min-height: 120vh;
+  }
 }
 .Price::after {
   position: relative;
@@ -551,7 +554,7 @@ button:hover {
 
 .FifthContent {
   background: linear-gradient(#250b83, #24003b);
-  min-height: 120vh;
+  min-height: 90vh;
   height: auto;
   font-family: "Poppins", sans-serif;
 }
