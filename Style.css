@@ -290,8 +290,8 @@ button:hover {
 
 .LearnMoreBtn {
   position: absolute;
-  left: 42%;
-  right: 42%;
+  left: 40%;
+  right: 40%;
   margin-top: 4rem;
   color: white;
   background: linear-gradient(160deg, #4c00ff, #d363ff);
@@ -300,6 +300,7 @@ button:hover {
   font-size: 1.2rem;
   padding: 16px 41px 16px 41px;
   text-align: center;
+  width: 20%;
 }
 .ThemeRow {
   margin-top: 17rem;
@@ -580,12 +581,11 @@ button:hover {
   margin: 0;
   padding: 0;
   max-height: 0;
-  visibility: hidden;
   transition: max-height 0.7s;
+  overflow: hidden;
 }
 .Answer-active {
   max-height: 150px;
-  visibility: visible;
 }
 .Answer li {
   color: #826cff;
@@ -878,8 +878,9 @@ input:focus {
     left: 16%;
   }
   .LearnMoreBtn {
-    right: 30%;
-    left: 30%;
+    right: 25%;
+    left: 25%;
+    width: 50%;
   }
   .Features {
     display: block;
