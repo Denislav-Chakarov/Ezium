@@ -408,7 +408,9 @@ button:hover {
 }
 .Tokens {
   display: flex;
-  transform: translate(30%, 30%);
+  justify-content: center;
+  align-items: center;
+  transform: translate(22%, 40%);
 }
 .Token {
   color: white;
