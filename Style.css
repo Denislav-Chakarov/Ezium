@@ -330,7 +330,7 @@ button:hover {
 /* Third Content Page */
 
 .ThirdContent {
-  min-height: 180vh;
+  min-height: 150vh;
   height: auto;
   background: linear-gradient(0deg, rgb(12, 0, 53), #250b83);
   font-family: "Poppins", sans-serif;
@@ -420,6 +420,9 @@ button:hover {
 @media screen and (max-width: 1600px) {
   .Token {
     transform: translate(100%, 40%);
+  }
+  .ThirdContent {
+    min-height: 180vh;
   }
 }
 .Price::after {
