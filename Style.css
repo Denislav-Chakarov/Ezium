@@ -330,7 +330,7 @@ button:hover {
 /* Third Content Page */
 
 .ThirdContent {
-  min-height: 100vh;
+  min-height: 130vh;
   height: auto;
   background: linear-gradient(0deg, rgb(12, 0, 53), #250b83);
   font-family: "Poppins", sans-serif;
