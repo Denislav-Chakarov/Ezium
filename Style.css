@@ -405,12 +405,11 @@ button:hover {
   color: white;
 }
 .TokenRow {
-  margin-top: 8rem;
+  transform: translate(0, 50%);
 }
 .Tokens {
   display: flex;
-  margin-left: 14.5rem;
-  margin-top: 3rem;
+  transform: translate(22%, 30%);
 }
 .Token {
   color: white;
