@@ -812,6 +812,7 @@ input:focus {
   .TokenRow {
     margin: 0;
     padding: 0;
+    margin-top: 5rem;
   }
   .Tokens {
     display: block;
@@ -878,6 +879,9 @@ input:focus {
     margin-top: 6rem;
     margin-left: -5rem;
   }
+  .FeaturesText {
+    display: none;
+  }
   .DataImg {
     width: 481px;
     height: 375px;
@@ -902,7 +906,8 @@ input:focus {
   }
   .Features {
     display: block;
-    margin-left: 2.5rem;
+    transform: translate(15%, 20%);
+    margin-top: 20rem;
     width: 80%;
   }
   .box {
@@ -926,6 +931,8 @@ input:focus {
     padding: 0;
     margin: 0;
     width: 100%;
+    transform: translate(0%, 10%);
+    margin-top: 4rem;
   }
   .Price::after {
     left: 46%;
