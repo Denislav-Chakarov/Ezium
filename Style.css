@@ -415,7 +415,12 @@ button:hover {
   background-color: #12026b;
   padding: 3rem;
   text-align: center;
-  transform: translate(150%, 40%);
+  transform: translate(160%, 40%);
+}
+@media screen and (max-width: 1600px) {
+  .Token {
+    transform: translate(100%, 40%);
+  }
 }
 .Price::after {
   position: relative;
