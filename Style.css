@@ -261,7 +261,6 @@ button:hover {
 .Welcome {
   color: white;
   text-align: center;
-  margin-top: 10rem;
 }
 .FloatLogo {
   font-size: 7rem;
@@ -405,11 +404,11 @@ button:hover {
   color: white;
 }
 .TokenRow {
-  transform: translate(0, 50%);
+  transform: translate(0, 100%);
 }
 .Tokens {
   display: flex;
-  transform: translate(22%, 30%);
+  transform: translate(21%, 30%);
 }
 .Token {
   color: white;
