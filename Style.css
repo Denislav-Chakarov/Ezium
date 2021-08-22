@@ -410,7 +410,12 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translate(22%, 40%);
+  transform: translate(35%, 40%);
+}
+@media screen and (max-width: 1920px) {
+  .Tokens {
+    transform: translate(22%, 40%);
+  }
 }
 .Token {
   color: white;
