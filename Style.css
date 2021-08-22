@@ -417,20 +417,7 @@ button:hover {
   text-align: center;
   transform: translate(160%, 40%);
 }
-@media screen and (max-width: 1600px) {
-  .Token {
-    transform: translate(100%, 40%);
-  }
-  .ThirdContent {
-    min-height: 180vh;
-  }
-  .FourthContent {
-    min-height: 140vh;
-  }
-  .FifthContent {
-    min-height: 120vh;
-  }
-}
+
 .Price::after {
   position: relative;
   content: "";
@@ -630,7 +617,7 @@ button:hover {
 
 .FinalContent {
   background: linear-gradient(0deg, #250b83, #24003b);
-  min-height: 140vh;
+  min-height: 110vh;
   height: auto;
   font-family: "Poppins", sans-serif;
 }
@@ -787,7 +774,23 @@ input:focus {
     margin-left: 0;
   }
 }
-
+@media screen and (max-width: 1600px) {
+  .Token {
+    transform: translate(100%, 40%);
+  }
+  .ThirdContent {
+    min-height: 180vh;
+  }
+  .FourthContent {
+    min-height: 140vh;
+  }
+  .FifthContent {
+    min-height: 120vh;
+  }
+  .FinalContent {
+    min-height: 140vh;
+  }
+}
 @media screen and (max-width: 768px) {
   .nav {
     position: fixed;
